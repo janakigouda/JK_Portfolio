@@ -25,11 +25,11 @@ export default class Sidebar extends Component {
                         </nav>
                         <nav id="colorlib-main-menu">
                             <ul>
-                                <li><a href="https://www.facebook.com/JanakiKgouda" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
+                                <li><a href="https://www.facebook.com/Janakikgouda" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
                                 <li><a href="https://twitter.com/janakigouda" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
                                 <li><a href="https://www.instagram.com/Kgouda_janaki/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
                                 <li><a href="https://www.linkedin.com/in/janakikangalgouda/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                                <li><a href="https://github.com/janakiKgouda" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                                <li><a href="https://github.com/janakigouda" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                             </ul>
                         </nav>
                         <div className="colorlib-footer">
