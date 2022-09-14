@@ -1,70 +1,95 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class About extends Component {
   render() {
     return (
       <div>
         <section className="colorlib-about" data-section="about">
-        <div className="colorlib-narrow-content">
+          <div className="colorlib-narrow-content">
             <div className="row">
-            <div className="col-md-12">
-                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                <div className="col-md-12">
+              <div className="col-md-12">
+                <div
+                  className="row row-bottom-padded-sm animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a computer grad student from Bharatesh College Of Computer Aplications with Web Development as my major.I love exploring new technologies and often amazed by the progress</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore.</p>
+                      <span className="heading-meta">About Us</span>
+                      <h2 className="colorlib-heading">Who Am I?</h2>
+                      <p>
+                        I am an Software development professional with the
+                        Knowledge of MERN stack. Collaborative, team player who
+                        is proficient in working with interdisciplinary teams
+                        and executing goal-oriented projects. Looking to join an
+                        organization where can develop my skill set while
+                        contributing to the company.
+                      </p>
                     </div>
+                  </div>
                 </div>
-                </div>
+              </div>
             </div>
-            </div>
-        </div>
+          </div>
         </section>
         <section className="colorlib-about">
-        <div className="colorlib-narrow-content">
+          <div className="colorlib-narrow-content">
             <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <div
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
-            </div>
+                <h2 className="colorlib-heading">
+                  Here are some of my expertise
+                </h2>
+              </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
+              <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
-                <span className="icon">
+                  <span className="icon">
                     <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I am pursuing my internship with Front End development team at ADIS Technologies and working with React js</p>
+                  </span>
+                  <div className="desc">
+                    <h3>Front-End Development </h3>
+                    <p>
+                        It is an open canvas to express the emotions
+                    </p>
+                    <br></br>
+                    <br></br>
+
+                  </div>
                 </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
+              </div>
+              <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
-                <span className="icon">
+                  <span className="icon">
                     <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Full Stack Development</h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript, React, HTML, CSS, Bootstrap, PHP, MySQL</p>
+                  </span>
+                  <div className="desc">
+                    <h3>Back-End Development</h3>
+                    <p>
+                        Emotions aren't enough, this is where the Actions are taken
+                    </p>
+                    <br></br>
+                  </div>
                 </div>
-            </div>
-            </div>
-            {/*
+              </div>
+              <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                  <span className="icon">
+                    <i className="icon-phone3" />
+                  </span>
+                  <div className="desc">
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>
+                    Actions take proper planning and implementations, in the right quality, quantity and direction
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              {/*
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
                 <span className="icon">
@@ -100,9 +125,9 @@ export default class About extends Component {
             </div>
             */}
             </div>
-        </div>
+          </div>
         </section>
       </div>
-    )
+    );
   }
 }
