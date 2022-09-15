@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/JK_Portfolio/static/js/main.151dd5cd.chunk.js",
-    "main.js.map": "/JK_Portfolio/static/js/main.151dd5cd.chunk.js.map",
+    "main.js": "/JK_Portfolio/static/js/main.303bc6ee.chunk.js",
+    "main.js.map": "/JK_Portfolio/static/js/main.303bc6ee.chunk.js.map",
     "runtime-main.js": "/JK_Portfolio/static/js/runtime-main.35e0feb0.js",
     "runtime-main.js.map": "/JK_Portfolio/static/js/runtime-main.35e0feb0.js.map",
     "static/js/2.29ff2fbe.chunk.js": "/JK_Portfolio/static/js/2.29ff2fbe.chunk.js",
@@ -10,11 +10,21 @@
     "static/js/3.00f595c8.chunk.js.map": "/JK_Portfolio/static/js/3.00f595c8.chunk.js.map",
     "index.html": "/JK_Portfolio/index.html",
     "static/js/2.29ff2fbe.chunk.js.LICENSE.txt": "/JK_Portfolio/static/js/2.29ff2fbe.chunk.js.LICENSE.txt",
-    "static/media/about2.40b87cd5.jpg": "/JK_Portfolio/static/media/about2.40b87cd5.jpg"
+    "static/media/about2.40b87cd5.jpg": "/JK_Portfolio/static/media/about2.40b87cd5.jpg",
+    "static/media/angular.b6d2a9de.png": "/JK_Portfolio/static/media/angular.b6d2a9de.png",
+    "static/media/bootstrap.29ff21bc.png": "/JK_Portfolio/static/media/bootstrap.29ff21bc.png",
+    "static/media/css.88864fb6.png": "/JK_Portfolio/static/media/css.88864fb6.png",
+    "static/media/git.02517ce7.png": "/JK_Portfolio/static/media/git.02517ce7.png",
+    "static/media/html.a592be81.png": "/JK_Portfolio/static/media/html.a592be81.png",
+    "static/media/js.cc31f74b.png": "/JK_Portfolio/static/media/js.cc31f74b.png",
+    "static/media/mongo.2f81ed7e.png": "/JK_Portfolio/static/media/mongo.2f81ed7e.png",
+    "static/media/mysql.6e42b2a0.png": "/JK_Portfolio/static/media/mysql.6e42b2a0.png",
+    "static/media/php.502c1a90.png": "/JK_Portfolio/static/media/php.502c1a90.png",
+    "static/media/react.0ea3b021.png": "/JK_Portfolio/static/media/react.0ea3b021.png"
   },
   "entrypoints": [
     "static/js/runtime-main.35e0feb0.js",
     "static/js/2.29ff2fbe.chunk.js",
-    "static/js/main.151dd5cd.chunk.js"
+    "static/js/main.303bc6ee.chunk.js"
   ]
 }

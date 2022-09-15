@@ -1849,3 +1849,18 @@ body.offcanvas .colorlib-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
+.main-card{
+  padding: 10px;
+}
+.card1>.con>.images{
+  height: 200px;
+}
+.images>.skil-img{
+  width: 100%;
+}
+.card1>.con>p{
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
