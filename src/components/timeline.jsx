@@ -21,8 +21,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at ADIS Technologies <span>Oct 2020 - May 2021</span></h2>
-                        <p>I have joined the ADIS Technologies as a Web Developer-Intern in the React js team. My major part of the work has been into the field of developing user interface (Continuous Integration & Continuous Development) .</p>
+                        <h2>Aspiring Full Stack Web Development at Masai School <span>April 2022 - Present</span></h2>
+                        <p>I am pursuing MERN stack web development at Masai School. </p>
                       </div>
                     </div>
                   </article>

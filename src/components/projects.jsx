@@ -103,30 +103,12 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project">
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<br></br>
-											<h4>Payment Gateway Integration</h4>
-											<p></p>
-											<p className="icon">
-												<span><a href="/"><i className="icon-share3" /></a></span> 
-												<span><a href="/" rel="noreferrer" target="_blank"><i className="icon-eye" /> Go TO Website</a></span>
-												<span><a href="/"><i className="icon-heart" /> 49</a></span> 
-											</p>
-										</div>
-									</div>
-								</div>
-							</div> */}
 						</div>
-						{/* <div className="row">
+						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="/" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
+								<p><a href="https://github.com/janakigouda" className="btn btn-primary btn-lg btn-load-more" target="_blank" rel="noreferrer">Load more <i className="icon-reload" /></a></p>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</section>
       </div>

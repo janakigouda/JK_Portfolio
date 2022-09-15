@@ -1615,6 +1615,9 @@
 .icon-github:before {
   content: "\eae0";
 }
+.icon-hackerrank:before{
+  content: "\e5e7";
+}
 .icon-npm:before {
   content: "\eae1";
 }
