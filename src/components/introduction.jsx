@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import img from "../images/back1.jpg";
 
 export default class Introduction extends Component {
   render() {
@@ -7,7 +8,8 @@ export default class Introduction extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: `url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'100% 100vh'}}>
+              {/* <li style={{backgroundImage: `url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'100% 100vh'}}> */}
+              <li style={{backgroundImage: `url(${img})`,backgroundSize:'100% 100vh'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -23,7 +25,8 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: `url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'100% 100vh'}}>
+              {/* <li style={{backgroundImage: `url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,backgroundSize:'100% 100vh'}}> */}
+              <li style={{backgroundImage: `url(${img})`,backgroundSize:'100% 100vh'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">

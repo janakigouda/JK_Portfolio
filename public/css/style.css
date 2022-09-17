@@ -1906,3 +1906,12 @@ body.offcanvas .colorlib-nav-toggle {
   justify-content: center;
   align-items: center;
 }
+/* git calender */
+.git-calender{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.cal{
+  width: 70%;
+  margin: auto;
+}
