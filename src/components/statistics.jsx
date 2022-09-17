@@ -67,16 +67,16 @@ export default class Statistics extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
-            <div
-              className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <GitHubCalendar
-                username="janakigouda"
-                year={new Date().getFullYear()}
-              />
+            <div className="row">
+              <div
+                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <GitHubCalendar
+                  username="janakigouda"
+                  year={new Date().getFullYear()}
+                />
+              </div>
             </div>
           </div>
         </section>
