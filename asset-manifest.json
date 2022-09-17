@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/JK_Portfolio/static/js/main.7394468e.chunk.js",
-    "main.js.map": "/JK_Portfolio/static/js/main.7394468e.chunk.js.map",
+    "main.js": "/JK_Portfolio/static/js/main.b492cd0d.chunk.js",
+    "main.js.map": "/JK_Portfolio/static/js/main.b492cd0d.chunk.js.map",
     "runtime-main.js": "/JK_Portfolio/static/js/runtime-main.1e52df35.js",
     "runtime-main.js.map": "/JK_Portfolio/static/js/runtime-main.1e52df35.js.map",
     "static/js/2.8cc28f36.chunk.js": "/JK_Portfolio/static/js/2.8cc28f36.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/2.8cc28f36.chunk.js.LICENSE.txt": "/JK_Portfolio/static/js/2.8cc28f36.chunk.js.LICENSE.txt",
     "static/media/about2.40b87cd5.jpg": "/JK_Portfolio/static/media/about2.40b87cd5.jpg",
     "static/media/angular.b6d2a9de.png": "/JK_Portfolio/static/media/angular.b6d2a9de.png",
+    "static/media/back1.986238f0.jpg": "/JK_Portfolio/static/media/back1.986238f0.jpg",
     "static/media/bootstrap.29ff21bc.png": "/JK_Portfolio/static/media/bootstrap.29ff21bc.png",
     "static/media/css.88864fb6.png": "/JK_Portfolio/static/media/css.88864fb6.png",
     "static/media/git.02517ce7.png": "/JK_Portfolio/static/media/git.02517ce7.png",
@@ -25,6 +26,6 @@
   "entrypoints": [
     "static/js/runtime-main.1e52df35.js",
     "static/js/2.8cc28f36.chunk.js",
-    "static/js/main.7394468e.chunk.js"
+    "static/js/main.b492cd0d.chunk.js"
   ]
 }
