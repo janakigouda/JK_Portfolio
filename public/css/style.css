@@ -491,8 +491,8 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   clear: both;
   width: 100%;
   display: block;
@@ -1863,4 +1863,46 @@ body.offcanvas .colorlib-nav-toggle {
   text-align: center;
   color: #000;
   font-weight: bold;
+}
+.fa-hackerrank{
+  font-size: 20px;
+}
+
+/* Stats */
+#statistics{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 10px;
+}
+.individualStat {
+  text-align: center;
+}
+.statisticsTitle > h1 {
+  font-weight: 700;
+  margin-top: 100px;
+  position: relative;
+}
+
+.statisticsTitle > h1::after {
+  background-color: #506aff;
+  content: " ";
+  height: 20%;
+  position: absolute;
+  left: -5px;
+  top: 55%;
+  width: calc(100% + 10px);
+  z-index: -1;
+}
+
+.individualStat > div:nth-child(1) {
+  margin: auto;
+  font-size: 28px;
+  font-weight: 600;
+  height: 130px;
+  width: 130px;
+  border: 10px solid #506aff;
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -11,8 +11,8 @@ export default class Sidebar extends Component {
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: `url(${img})` }} />
                             <h1 id="colorlib-logo"><a href="index.html">Janaki Kangalgouda</a></h1>
-                            <span className="email"><i className="icon-mail"></i> janakikangalgouda@gmail.com</span>
-                            <span className="email"><i className="icon-phone"></i> +91-7619142199</span>
+                            {/* <span className="email"><i className="icon-mail"></i> janakikangalgouda@gmail.com</span> */}
+                            {/* <span className="email"><i className="icon-phone"></i> +91-7619142199</span> */}
                         </div>
                         <nav id="colorlib-main-menu" role="navigation" className="navbar">
                             <div id="navbar" className="collapse">
@@ -23,6 +23,7 @@ export default class Sidebar extends Component {
                                     <li><a href="#experience" data-nav-section="experience">Experience</a></li>
                                     <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                                     <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                                    <li><a href="#statistics" data-nav-section="statistics">Statistics</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -30,19 +31,20 @@ export default class Sidebar extends Component {
                             <ul>
                                 <li><a href="https://www.linkedin.com/in/janakikangalgouda/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                                 <li><a href="https://github.com/janakigouda" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                                <li><a href="https://github.com/janakigouda" target="_blank" rel="noopener noreferrer"><i className="icon-hackerrank"></i></a></li>
+                                <li><a href="https://www.hackerrank.com/janakikangalgou1?hr_r=1" target="_blank" rel="noopener noreferrer"><i className="fab fa-hackerrank"></i></a></li>
                             </ul>
                         </nav>
                         <div className="colorlib-footer">
-                            <p><small>
-                                Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i>
-                            </small></p>
+                            
                             <p>
                                 <small>
                                     <span className="email"><i className="icon-mail"></i> janakikangalgouda@gmail.com</span>
                                     <span className="email"><i className="icon-phone"></i> +91-7619142199</span>
                                 </small>
                             </p>
+                            <p><small>
+                                Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i>
+                            </small></p>
                             {/* <p><small>
                                 Something coming soon !!
                             </small></p> */}

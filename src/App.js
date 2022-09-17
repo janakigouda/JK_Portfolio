@@ -6,6 +6,7 @@ import Timeline from "./components/timeline";
 import Projects from "./components/projects";
 import Experience from "./components/experience";
 import Skills from "./components/skills";
+import Statistics from "./components/statistics";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Experience></Experience>
             <Projects></Projects>
             <Timeline></Timeline>
+            <Statistics></Statistics>
           </div>
         </div>
       </div>

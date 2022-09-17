@@ -117,8 +117,8 @@ export default class Skills extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
+            {/* </div>
+            <div className="row"> */}
               <div
                 className="col-md-2 col-sm-3 animate-box main-card"
                 data-animate-effect="fadeInLeft"
