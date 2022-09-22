@@ -20,10 +20,12 @@ export default class About extends Component {
                         I am an Software development professional with the
                         Knowledge of MERN stack. Collaborative, team player who
                         is proficient in working with interdisciplinary teams
-                        and executing goal-oriented projects. Looking to join an
-                        organization where can develop my skill set while
-                        contributing to the company.
+                        and executing goal-oriented projects. 
                       </p>
+                      <p>I love to work on exciting projects that test what I've learnt, whilst being exposed to the power and potential of the ever-evolving technologies around us.</p>
+                      <p>Looking to join an
+                        organization where can develop my skill set while
+                        contributing to the company.</p>
                     </div>
                   </div>
                 </div>

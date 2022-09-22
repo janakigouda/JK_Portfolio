@@ -10,6 +10,7 @@ import mysql from "../images/mysql.png";
 import node from "../images/node.png";
 import php from "../images/php.png";
 import react from "../images/react.png";
+import ts from "../images/ts.png";
 
 export default class Skills extends Component {
   render() {
@@ -83,6 +84,21 @@ export default class Skills extends Component {
                         <img src={react} alt="html" className="skil-img" />
                       </div>
                       <p>REACT JS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-2 col-sm-3  animate-box main-card"
+                data-animate-effect="fadeInLeft"
+              >
+                <div className="card">
+                  <div className="card1">
+                    <div className="con">
+                      <div className="images">
+                        <img src={ts} alt="html" className="skil-img" />
+                      </div>
+                      <p>TypeScript</p>
                     </div>
                   </div>
                 </div>
