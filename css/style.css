@@ -1851,10 +1851,11 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .main-card{
-  padding: 10px;
+  padding: 30px;
+  /* border:1px solid #000 ; */
 }
 .card1>.con>.images{
-  height: 200px;
+  height: 150px;
 }
 .images>.skil-img{
   width: 100%;
@@ -1866,6 +1867,33 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .fa-hackerrank{
   font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .main-card{
+    padding: 10px;
+  }
+  .card1>.con>p{
+    font-size: 18px!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-card{
+    padding: 20px;
+  }
+  .card1>.con>p{
+    font-size: 17px!important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-card{
+    padding: 30px;
+  }
+  .card1>.con>p{
+    font-size: 17px!important;
+  }
 }
 
 /* Stats */

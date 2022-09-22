@@ -3,7 +3,7 @@
   "name": "Portfolio app made with react as part of 'weekend projects' initiative",
   "icons": [
     {
-      "src": "images/about1.jpg",
+      "src": "about2.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
