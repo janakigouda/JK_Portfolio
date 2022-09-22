@@ -21,7 +21,7 @@ export default class Experience extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at ADIS Technologies <span>June 2020 - May 2022</span></h2>
+                        <h2>Associate Software Engineer at Intertec Sytems Pvt Ltd<span>June 2021 - May 2022</span></h2>
                         <p>I have joined the Intertec Softwares Pvt Ltd as a Associate Software Engineer. My major part of the work has been into the field of developing user project using Angular JS (Continuous Integration & Continuous Development) .</p>
                       </div>
                     </div>
