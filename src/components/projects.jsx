@@ -53,7 +53,7 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -97,7 +97,7 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://lucent-parfait-62c9f0.netlify.app/">
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -140,7 +140,7 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://taupe-sopapillas-55edd5.netlify.app/">
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -183,7 +183,7 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://janakigouda.github.io/desistores-web/">
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -226,7 +226,7 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -265,7 +265,7 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
@@ -308,7 +308,7 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-eye" /> Go TO Website
+                            <i className="icon-github" /> Go TO Website
                           </a>
                         </span>
                         {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
