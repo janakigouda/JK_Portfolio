@@ -1940,13 +1940,16 @@ body.offcanvas .colorlib-nav-toggle {
   margin-bottom: 5em;
 }
 .cal{
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 .cal2{
-  width: 80%;
+  width: 100%;
   margin:10px auto auto auto;
 }
-.cal2>img{
+.cal2>div{
+  display: flex;
+}
+.cal2 img{
   margin: 10px 0px;
 }
