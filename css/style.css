@@ -1943,3 +1943,10 @@ body.offcanvas .colorlib-nav-toggle {
   width: 70%;
   margin: auto;
 }
+.cal2{
+  width: 80%;
+  margin:10px auto auto auto;
+}
+.cal2>img{
+  margin: 10px 0px;
+}
