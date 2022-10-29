@@ -68,15 +68,38 @@ export default class Statistics extends Component {
               </div>
             </div>
             <div className="row git-calender">
-              <div
-                className="animate-box"
-                data-animate-effect="fadeInLeft"
-              >
+              <div className="animate-box" data-animate-effect="fadeInLeft">
                 <div className="cal">
                   <GitHubCalendar
                     username="janakigouda"
                     year={new Date().getFullYear()}
                     className="gitCal"
+                  />
+                </div>
+                <div className="cal2">
+                  <img
+                    align="center"
+                    width="100%"
+                    src="https://activity-graph.herokuapp.com/graph?username=janakigouda&theme=github"
+                    height="250"
+                    alt="janakigouda"
+                  />
+                  <img
+                    align="left"
+                    width="50%"
+                    src="https://github-readme-stats.vercel.app/api?username=janakigouda&show_icons=true&theme=radical"
+                    alt="janakigouda"
+                  />
+                  <img
+                    align="right"
+                    width="50%"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=janakigouda&theme=radical"
+                    alt="janakigouda"
+                  />
+                  <img
+                    align="center"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=janakigouda&layout=compact&text_color=daf7dc&bg_color=151515"
+                    alt="janakigouda"
                   />
                 </div>
               </div>
