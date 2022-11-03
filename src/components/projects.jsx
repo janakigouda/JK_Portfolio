@@ -25,6 +25,9 @@ export default class Projects extends Component {
                 <div className="project">
                   <div className="desc">
                     <div className="con">
+                      <div className="project_img">
+                        <img src="https://as2.ftcdn.net/v2/jpg/02/23/81/25/1000_F_223812523_yDlj3LiSzR0H4Rbcwtm1Q2ETAogWj2MY.jpg" alt="img" />
+                      </div>
                       <h3>
                         <a href="https://super-cool-site-by-janaki-kangalgouda-56eac.netlify.app/">
                           Cows On Cloud

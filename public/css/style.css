@@ -1195,7 +1195,7 @@ body.offcanvas .colorlib-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 550px;
   width: 100%;
   display: block;
   margin-bottom: 30px;
@@ -1216,18 +1216,22 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 20px;
   display: block;
   position: relative;
-  height: 300px;
+  height: 550px;
+}
+.project .desc .con h3{
+  padding-top: 2.5rem;
 }
 .project .desc .con h4 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   font-family: "Quicksand", Arial, sans-serif;
   color: white;
+  margin-top: -1rem;
 }
 .project .desc .con p {
   padding: 0;
   margin: 0;
-  line-height: 20px;
+  /* line-height: 20px; */
   font-style: 15px;
   font-family: "Quicksand", Arial, sans-serif;
   color: white;
@@ -1241,6 +1245,7 @@ body.offcanvas .colorlib-nav-toggle {
 .project .desc .con .icon span {
   display: inline;
   padding-right: 5px;
+
 }
 .project .desc .con .icon span a {
   color: #333333;
@@ -1261,15 +1266,15 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  /* -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  margin-bottom: 15px;
+  transform: translate3d(0, -15px, 0); */
+  margin-bottom: 5px;
 }
 .project .desc h3 a {
   color: #fff;
@@ -1278,14 +1283,15 @@ body.offcanvas .colorlib-nav-toggle {
   display: block;
   color: rgba(255, 255, 255, 0.7);
   font-size: 13px;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  /* -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0); */
+  padding-top:-10px;
 }
 .project .desc span a {
   color: #000;
@@ -1306,7 +1312,7 @@ body.offcanvas .colorlib-nav-toggle {
     transform: translate3d(0, 0, 0);
   }
 }
-.project:hover .desc {
+/* .project:hover .desc {
   opacity: 1;
 }
 .project:hover .desc h3 {
@@ -1316,7 +1322,7 @@ body.offcanvas .colorlib-nav-toggle {
 .project:hover .desc span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+} */
 
 .btn-load-more {
   width: 100%;
@@ -1952,4 +1958,11 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .cal2 img{
   margin: 10px 0px;
+}
+.project .desc .con .project_img{
+  width:100%;
+}
+.project .desc .con .project_img>img{
+  width: 100%;
+  height: 200px;
 }
