@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import cows from "../images/cowoncloud.png";
+import apple from "../images/apple.png";
+import desi from "../images/desistores.png";
+import magic from "../images/magic.png";
+import big from "../images/big.png";
 
 export default class Projects extends Component {
   render() {
@@ -26,7 +31,7 @@ export default class Projects extends Component {
                   <div className="desc">
                     <div className="con">
                       <div className="project_img">
-                        <img src="https://as2.ftcdn.net/v2/jpg/02/23/81/25/1000_F_223812523_yDlj3LiSzR0H4Rbcwtm1Q2ETAogWj2MY.jpg" alt="img" />
+                        <img src={cows} alt="img" />
                       </div>
                       <h3>
                         <a href="https://super-cool-site-by-janaki-kangalgouda-56eac.netlify.app/">
@@ -56,10 +61,9 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-github" /> Go TO Website
+                            <i className="icon-github" /> Go To Website
                           </a>
                         </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
                       </p>
                     </div>
                   </div>
@@ -69,12 +73,12 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-5.jpg)" }}
-                >
+                <div className="project">
                   <div className="desc">
                     <div className="con">
+                      <div className="project_img">
+                        <img src={apple} alt="img" />
+                      </div>
                       <h3>
                         <a
                           href="https://lucent-parfait-62c9f0.netlify.app/"
@@ -86,11 +90,15 @@ export default class Projects extends Component {
                       </h3>
                       <span>Web Application </span>
                       <br></br>
-                      <h4>Tech Stack: HTML | CSS | JS | Owl Carousel | Local storage</h4>
+                      <h4>
+                        Tech Stack: HTML | CSS | JS | Owl Carousel | Local
+                        storage
+                      </h4>
                       <p>
-                      Apple TV+ web application is a streaming service featuring Apple Originals
-                      —award-winning series, compelling dramas,
-                      kids' entertainment, comedies, and more
+                        Apple TV+ web application is a streaming service
+                        featuring Apple Originals —award-winning series,
+                        compelling dramas, kids' entertainment, comedies, and
+                        more
                       </p>
                       <p className="icon">
                         <span>
@@ -100,10 +108,9 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://lucent-parfait-62c9f0.netlify.app/">
-                            <i className="icon-github" /> Go TO Website
+                            <i className="icon-github" /> Go To Website
                           </a>
                         </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
                       </p>
                     </div>
                   </div>
@@ -113,12 +120,12 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-5.jpg)" }}
-                >
+                <div className="project">
                   <div className="desc">
                     <div className="con">
+                      <div className="project_img">
+                        <img src={big} alt="img" />
+                      </div>
                       <h3>
                         <a
                           href="https://taupe-sopapillas-55edd5.netlify.app/"
@@ -130,7 +137,10 @@ export default class Projects extends Component {
                       </h3>
                       <span>E-Commerce website</span>
                       <br></br>
-                      <h4>Tech Stack: HTML | CSS | JS | Owl Carousel | Local storage</h4>
+                      <h4>
+                        Tech Stack: HTML | CSS | JS | Owl Carousel | Local
+                        storage
+                      </h4>
                       <p>
                         E-commerce Website. Designed a small e-commerce
                         application for groceries.
@@ -143,10 +153,9 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://taupe-sopapillas-55edd5.netlify.app/">
-                            <i className="icon-github" /> Go TO Website
+                            <i className="icon-github" /> Go To Website
                           </a>
                         </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
                       </p>
                     </div>
                   </div>
@@ -156,12 +165,12 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-5.jpg)" }}
-                >
+                <div className="project">
                   <div className="desc">
                     <div className="con">
+                      <div className="project_img">
+                        <img src={desi} alt="img" />
+                      </div>
                       <h3>
                         <a
                           href="https://janakigouda.github.io/desistores-web/"
@@ -186,92 +195,9 @@ export default class Projects extends Component {
                         </span>
                         <span>
                           <a href="https://janakigouda.github.io/desistores-web/">
-                            <i className="icon-github" /> Go TO Website
+                            <i className="icon-github" /> Go To Website
                           </a>
                         </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
-              >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-2.jpg)" }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="Http://eternus.bharateshbca.com">ETERNUS </a>
-                      </h3>
-                      <span>Web Development</span>
-                      <br></br>
-                      <h4>Tech Stack:HTML | CSS | PHP | MYSQL</h4>
-                      <p>
-                        Registration Application for our college. Developed a
-                        small application which describes our college fest and
-                        tells about the games and its rules and also there is
-                        registration for students.
-                      </p>
-                      <p className="icon">
-                        <span>
-                          <a href="Http://eternus.bharateshbca.com ">
-                            <i className="icon-share3" />
-                          </a>
-                        </span>
-                        <span>
-                          <a
-                            href="Http://eternus.bharateshbca.com "
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            <i className="icon-github" /> Go TO Website
-                          </a>
-                        </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInTop"
-              >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-3.jpg)" }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="http://www.lingayatkranti.com/subscribe ">
-                          LINGAYAT KRANTI
-                        </a>
-                      </h3>
-                      <span>Payment Integration</span>
-                      <br></br>
-                      <h4>Tech Stack: HTML | CSS | JS | PHP | MYSQL</h4>
-                      <p>
-                      Payment Gateway Integration.Developed with my classmate to integrate PayTM payment
-                        gateway for Lingayat Kranti newspaper Subscription.{" "}
-                      </p>
-                      <p className="icon">
-                        <span><a href="http://www.lingayatkranti.com/subscribe"><i className="icon-share3" /></a></span>
-                        <span>
-                          <a
-                            href="http://www.lingayatkranti.com/subscribe "
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            <i className="icon-github" /> Go TO Website
-                          </a>
-                        </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
                       </p>
                     </div>
                   </div>
@@ -281,12 +207,12 @@ export default class Projects extends Component {
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInBottom"
               >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/img-4.jpg)" }}
-                >
+                <div className="project">
                   <div className="desc">
                     <div className="con">
+                      <div className="project_img">
+                        <img src={magic} alt="img" />
+                      </div>
                       <h3>
                         <a href="https://janakigouda.github.io/phpGame/">
                           Magic Game
@@ -311,10 +237,9 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-github" /> Go TO Website
+                            <i className="icon-github" /> Go To Website
                           </a>
                         </span>
-                        {/* <span><a href="/"><i className="icon-heart" /> 49</a></span> */}
                       </p>
                     </div>
                   </div>
