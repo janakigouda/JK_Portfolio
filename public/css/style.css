@@ -1983,3 +1983,40 @@ body.offcanvas .colorlib-nav-toggle {
   width: 30%;
   margin:1rem auto;
 }
+.contact-page{
+  margin-bottom: 10rem;  
+}
+.contact-footer{
+  width: 30%;
+  margin: 1rem auto 15rem auto;
+  text-align: center;
+}
+.contact-footer>h3{
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: dotted;
+}
+.contact-footer p small .email{
+  margin: 10px;
+
+}
+.contact-footer p small .email .social > i{
+  color: #000;
+}
+.contact-footer p small .email .social > i:hover{
+  color: #eea236;
+}
+.contact-footer p small .email:nth-child(1) .social > i{
+  font-size: 55px;
+}
+.contact-footer p small .email:nth-child(2) .social > i{
+  font-size: 35px;
+}
+.contact-footer p small .email:nth-child(3) .social > i{
+  font-size: 35px;
+}
+.end{
+  text-align: center;
+  margin-bottom: 20rem;
+  color: orange;
+}

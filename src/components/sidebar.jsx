@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../images/about2.jpg";
+import img from "../images/profile.jpeg";
 
 export default class Sidebar extends Component {
   render() {
@@ -83,7 +83,7 @@ export default class Sidebar extends Component {
                 {/* <ul> */}
                 {/* <li> */}
                 <a
-                  href="https://www.linkedin.com/in/janakikangalgouda/"
+                  href="https://www.linkedin.com/in/janaki-kangalgouda-809936169"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -115,7 +115,7 @@ export default class Sidebar extends Component {
               <p>
                 <small>
                   <span className="email">
-                    <i className="icon-mail"></i> janakikangalgouda@gmail.com
+                    <i className="icon-mail"></i> janugouda1008@gmail.com
                   </span>
                   <span className="email">
                     <i className="icon-phone"></i> +91-7619142199
