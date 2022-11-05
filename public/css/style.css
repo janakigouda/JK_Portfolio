@@ -1974,3 +1974,11 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100%;
   height: 180px;
 }
+.cal2 .cal{
+  width: 70%;
+  margin:1rem auto;
+}
+.cal2 .lang{
+  width: 30%;
+  margin:1rem auto;
+}

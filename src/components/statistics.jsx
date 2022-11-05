@@ -93,14 +93,15 @@ export default class Statistics extends Component {
                       alt="janakigouda"
                     />
                   </div>
-                  <div>
+                  <div className="cal">
                     <GitHubCalendar
                       username="janakigouda"
                       year={new Date().getFullYear()}
                       className="gitCal"
                     />
-                    <img
-                      // align="right"s
+                  </div>
+                  <div className="lang">
+                  <img
                       src="https://github-readme-stats.vercel.app/api/top-langs/?username=janakigouda&layout=compact&text_color=daf7dc&bg_color=151515"
                       alt="janakigouda"
                     />
