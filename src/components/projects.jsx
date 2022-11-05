@@ -182,7 +182,7 @@ export default class Projects extends Component {
                       </h3>
                       <span>E-Commerce website</span>
                       <br></br>
-                      <h4>Tech Stack: HTML | CSS | JS | Owl Carousel | </h4>
+                      <h4>Tech Stack: HTML | CSS | JS | Owl Carousel  </h4>
                       <p>
                         E-commerce Website. Designed a small e-commerce
                         application for organic products.

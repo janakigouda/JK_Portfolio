@@ -173,6 +173,14 @@ figure figcaption {
     margin: 0 0 2em 0;
   }
 }
+#colorlib-aside #colorlib-main-menu .contact{
+  width: 43%;
+  margin: auto;
+}
+#colorlib-aside #colorlib-main-menu .contact a{
+  color: rgba(0, 0, 0, 0.7);
+  padding: 2px 10px;
+}
 #colorlib-aside #colorlib-main-menu ul li {
   margin: 0 0 10px 0;
   padding: 0;
