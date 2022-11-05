@@ -1983,3 +1983,26 @@ body.offcanvas .colorlib-nav-toggle {
   width: 30%;
   margin:1rem auto;
 }
+.contact-footer{
+  width: 30%;
+  margin: auto;
+}
+.contact-footer p small .email{
+  padding: 10px 10px;
+}
+.contact-footer p small .email .social > i{
+  color: #000;
+}
+.contact-footer p small .email .social > i:hover{
+  color: #eea236;
+}
+.contact-footer p small .email:nth-child(1) .social > i{
+  font-size: 55px;
+}
+.contact-footer p small .email:nth-child(2) .social > i{
+  font-size: 35px;
+}
+.contact-footer p small .email:nth-child(3) .social > i{
+  font-size: 35px;
+}
+
