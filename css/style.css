@@ -1988,12 +1988,13 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .contact-footer{
   width: 30%;
-  margin: auto;
+  margin: 1rem auto 15rem auto;
   text-align: center;
 }
 .contact-footer>h3{
   font-weight: 500;
   font-size: 20px;
+  text-decoration: dotted;
 }
 .contact-footer p small .email{
   margin: 10px;
@@ -2014,4 +2015,8 @@ body.offcanvas .colorlib-nav-toggle {
 .contact-footer p small .email:nth-child(3) .social > i{
   font-size: 35px;
 }
-
+.end{
+  text-align: center;
+  margin-bottom: 20rem;
+  color: orange;
+}
