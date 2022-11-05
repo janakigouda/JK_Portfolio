@@ -66,6 +66,11 @@ export default class Sidebar extends Component {
                     </a>
                   </li>
                   <li>
+                    <a href="#contact" data-nav-section="contact">
+                      Contact
+                    </a>
+                  </li>
+                  <li>
                     <a href="https://drive.google.com/file/d/1QYnZzvWgHSURglhnAWdl3cT-ArKvWClm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       Resume
                     </a>

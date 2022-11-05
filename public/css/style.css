@@ -1963,6 +1963,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .cal2>div{
   display: flex;
+  margin: 0px 2rem;
 }
 .cal2 img{
   margin: 10px 0px;
