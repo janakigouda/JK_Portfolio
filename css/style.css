@@ -1331,7 +1331,8 @@ body.offcanvas .colorlib-nav-toggle {
 @media screen and (max-width: 768px) {
   .project .desc {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 2px 3px rgb(244, 217, 174);
+
   }
   .project .desc h3 {
     font-style: 28px;
