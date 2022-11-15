@@ -1247,7 +1247,13 @@ body.offcanvas .colorlib-nav-toggle {
 .project>.desc>.con>h4>p:nth-child(1){
   font-weight: 600;
   text-decoration: underline;
-  width: 150px;
+  width: 30%;
+  font-size: 16px;
+}
+.project>.desc>.con>h4>p:nth-child(2){
+  font-size: 14px;
+  width: 70%;
+
 }
 .project .desc .con p {
   padding: 0;
