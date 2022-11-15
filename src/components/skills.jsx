@@ -27,9 +27,9 @@ export default class Skills extends Component {
                 <h2 className="colorlib-heading animate-box">PROFICIENCIES</h2>
               </div>
             </div>
-            <div className="row">
+            <div className="r" id="sk-row">
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -38,13 +38,13 @@ export default class Skills extends Component {
                       <div className="images">
                         <img src={html} alt="html" className="skil-img" />
                       </div>
-                      <p>HTML 5</p>
+                      <p id="s-name">HTML 5</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -59,7 +59,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -74,7 +74,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -89,7 +89,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3  animate-box main-card"
+                className=" animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -104,7 +104,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -119,7 +119,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -136,7 +136,7 @@ export default class Skills extends Component {
             {/* </div>
             <div className="row"> */}
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -151,7 +151,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -166,7 +166,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -181,7 +181,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">
@@ -196,7 +196,7 @@ export default class Skills extends Component {
                 </div>
               </div>
               <div
-                className="col-md-2 col-sm-3 animate-box main-card"
+                className="animate-box main-card"
                 data-animate-effect="fadeInLeft"
               >
                 <div className="card">

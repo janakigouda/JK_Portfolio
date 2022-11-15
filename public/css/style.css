@@ -1214,27 +1214,46 @@ body.offcanvas .colorlib-nav-toggle {
   bottom: 0;
   left: 0;
   right: 0;
-  background: orange;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 3px rgb(244, 217, 174);
+  /* background: rgba(255, 191, 72, 0.553); */
   /* opacity: 0; */
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  color: #333333;
 }
 .project .desc .con {
   padding: 20px;
   display: block;
   position: relative;
   height: 550px;
+  color: #333333;
 }
 .project .desc .con h3{
   padding-top: 2.5rem;
+  color: #333333;
+  font-weight: 600;
 }
 .project .desc .con h4 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Quicksand", Arial, sans-serif;
-  color: white;
+  color: rgb(25, 25, 25);
   margin-top: -1rem;
+  display: flex;
+  flex-direction: row;
+}
+.project>.desc>.con>h4>p:nth-child(1){
+  font-weight: 600;
+  text-decoration: underline;
+  width: 30%;
+  font-size: 16px;
+}
+.project>.desc>.con>h4>p:nth-child(2){
+  font-size: 14px;
+  width: 70%;
+
 }
 .project .desc .con p {
   padding: 0;
@@ -1243,6 +1262,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-style: 15px;
   font-family: "Quicksand", Arial, sans-serif;
   color: white;
+  color: #333333;
 }
 .project .desc .con .icon {
   position: absolute;
@@ -1253,12 +1273,13 @@ body.offcanvas .colorlib-nav-toggle {
 .project .desc .con .icon span {
   display: inline;
   padding-right: 5px;
+  color: #333333;
 
 }
 .project .desc .con .icon span a {
   color: #333333;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 194, 97, 0.5);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -1274,6 +1295,7 @@ body.offcanvas .colorlib-nav-toggle {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #333333;
   /* -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1286,11 +1308,13 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .project .desc h3 a {
   color: #fff;
+  color: #333333;
 }
 .project .desc span {
   display: block;
   color: rgba(255, 255, 255, 0.7);
   font-size: 13px;
+  color: #333333;
   /* -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1307,7 +1331,8 @@ body.offcanvas .colorlib-nav-toggle {
 @media screen and (max-width: 768px) {
   .project .desc {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 2px 3px rgb(244, 217, 174);
+
   }
   .project .desc h3 {
     font-style: 28px;
@@ -1841,6 +1866,7 @@ body.offcanvas .colorlib-nav-toggle {
   .row-bottom-padded-md {
     padding-bottom: 1em;
   }
+  
 }
 
 .row-bottom-padded-sm {
@@ -1864,6 +1890,11 @@ body.offcanvas .colorlib-nav-toggle {
   opacity: 0;
 }
 
+#sk-row{
+  display: grid;
+  grid-template-columns: repeat(6 , 1fr);
+}
+
 .main-card{
   padding: 30px;
   /* border:1px solid #000 ; */
@@ -1883,12 +1914,28 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 20px;
 }
 
+
+
 @media screen and (max-width: 992px) {
   .main-card{
     padding: 10px;
   }
   .card1>.con>p{
     font-size: 18px!important;
+  }
+  .card1>.con>.images{
+    height:   100px!important;
+    width: 100%!important;
+  }
+  .card1>.con>p{
+    margin-top: 4rem;
+  }
+  #sk-row{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+  }
+  .card1>.con>p{
+    font-size: 15px!important;
   }
 }
 
@@ -1899,6 +1946,18 @@ body.offcanvas .colorlib-nav-toggle {
   .card1>.con>p{
     font-size: 17px!important;
   }
+  .card1>.con>.images{
+    height:   100px!important;
+    width: 100%!important;
+  }
+  .card1>.con>p{
+    font-size: 15px!important;
+    margin-top: 5.5rem!important;
+  }
+  #sk-row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1907,6 +1966,10 @@ body.offcanvas .colorlib-nav-toggle {
   }
   .card1>.con>p{
     font-size: 17px!important;
+  }
+  #sk-row{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
   }
 }
 
@@ -2019,4 +2082,8 @@ body.offcanvas .colorlib-nav-toggle {
   text-align: center;
   margin-bottom: 20rem;
   color: orange;
+}
+
+#resume{
+  margin-top: -2rem!important;
 }

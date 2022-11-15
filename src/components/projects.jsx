@@ -4,6 +4,7 @@ import apple from "../images/apple.png";
 import desi from "../images/desistores.png";
 import magic from "../images/magic.png";
 import big from "../images/big.png";
+import bitrix from "../images/bitrix.png";
 
 export default class Projects extends Component {
   render() {
@@ -23,6 +24,48 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row">
+            <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div className="project">
+                  <div className="desc">
+                    <div className="con">
+                      <div className="project_img">
+                        <img src={bitrix} alt="img" />
+                      </div>
+                      <h3>
+                        <a href="https://super-cool-site-by-janaki-kangalgouda-56eac.netlify.app/">
+                          Bitrix24 - Clonning
+                        </a>
+                      </h3>
+                      <span>MERN Application</span>
+                      <br></br>
+                      <h4>
+                        <p>Tech Stack</p> <p>:ReactJS | Redux | NodeJS | ExpressJS | MongoDB | Chakra-UI</p>
+                      </h4>
+                      <p>
+                      Bitrix24 is a united workspace that handles many aspects of daily operations and tasks .                      </p>
+                      <p className="icon">
+                        <span>
+                          <a href="https://github.com/Hashal890/Bitrix24-Clone" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                        <span>
+                          <a
+                            href="https://betrix24-clone.vercel.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <i className="icon-link2" /> Go To Website
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
@@ -41,8 +84,8 @@ export default class Projects extends Component {
                       <span>React Application</span>
                       <br></br>
                       <h4>
-                        Tech Stack: React JS (React routers) | CSS | Owl
-                        carousel{" "}
+                        <p>Tech Stack</p><p>: React JS (React routers) | CSS | Owl
+                        carousel</p>
                       </h4>
                       <p>
                         A web application is about the Adis (animal digital
@@ -51,8 +94,8 @@ export default class Projects extends Component {
                       </p>
                       <p className="icon">
                         <span>
-                          <a href="https://github.com/janakigouda/cows-on-cloud-website">
-                            <i className="icon-share3" />
+                          <a href="https://github.com/janakigouda/cows-on-cloud-website" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-github" />
                           </a>
                         </span>
                         <span>
@@ -61,7 +104,7 @@ export default class Projects extends Component {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            <i className="icon-github" /> Go To Website
+                            <i className="icon-link2" /> Go To Website
                           </a>
                         </span>
                       </p>
@@ -91,8 +134,8 @@ export default class Projects extends Component {
                       <span>Web Application </span>
                       <br></br>
                       <h4>
-                        Tech Stack: HTML | CSS | JS | Owl Carousel | Local
-                        storage
+                        <p>Tech Stack</p><p>: HTML | CSS | JS | Owl Carousel | Local
+                        storage</p>
                       </h4>
                       <p>
                         Apple TV+ web application is a streaming service
@@ -102,13 +145,13 @@ export default class Projects extends Component {
                       </p>
                       <p className="icon">
                         <span>
-                          <a href="https://github.com/arnab9593/appletv">
-                            <i className="icon-share3" />
+                          <a href="https://github.com/arnab9593/appletv" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-github" />
                           </a>
                         </span>
                         <span>
-                          <a href="https://lucent-parfait-62c9f0.netlify.app/">
-                            <i className="icon-github" /> Go To Website
+                          <a href="https://lucent-parfait-62c9f0.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-link2" /> Go To Website
                           </a>
                         </span>
                       </p>
@@ -138,8 +181,8 @@ export default class Projects extends Component {
                       <span>E-Commerce website</span>
                       <br></br>
                       <h4>
-                        Tech Stack: HTML | CSS | JS | Owl Carousel | Local
-                        storage
+                        <p>Tech Stack</p><p>: HTML | CSS | JS | Owl Carousel | Local
+                        storage</p>
                       </h4>
                       <p>
                         E-commerce Website. Designed a small e-commerce
@@ -147,13 +190,13 @@ export default class Projects extends Component {
                       </p>
                       <p className="icon">
                         <span>
-                          <a href="https://github.com/janakigouda/spotless-wing-656">
-                            <i className="icon-share3" />
+                          <a href="https://github.com/janakigouda/spotless-wing-656" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-github" />
                           </a>
                         </span>
                         <span>
-                          <a href="https://taupe-sopapillas-55edd5.netlify.app/">
-                            <i className="icon-github" /> Go To Website
+                          <a href="https://taupe-sopapillas-55edd5.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-link2" /> Go To Website
                           </a>
                         </span>
                       </p>
@@ -182,62 +225,20 @@ export default class Projects extends Component {
                       </h3>
                       <span>E-Commerce website</span>
                       <br></br>
-                      <h4>Tech Stack: HTML | CSS | JS | Owl Carousel  </h4>
+                      <h4><p>Tech Stack</p><p>: HTML | CSS | JS | Owl Carousel</p>  </h4>
                       <p>
                         E-commerce Website. Designed a small e-commerce
                         application for organic products.
                       </p>
                       <p className="icon">
                         <span>
-                          <a href="https://github.com/janakigouda/desistores-web">
-                            <i className="icon-share3" />
+                          <a href="https://janakigouda.github.io/desistores-web/" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-github" />
                           </a>
                         </span>
                         <span>
-                          <a href="https://janakigouda.github.io/desistores-web/">
-                            <i className="icon-github" /> Go To Website
-                          </a>
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInBottom"
-              >
-                <div className="project">
-                  <div className="desc">
-                    <div className="con">
-                      <div className="project_img">
-                        <img src={magic} alt="img" />
-                      </div>
-                      <h3>
-                        <a href="https://janakigouda.github.io/phpGame/">
-                          Magic Game
-                        </a>
-                      </h3>
-                      <span>Game</span>
-                      <br></br>
-                      <h4>Tech Stack : HTML | CSS | PHP</h4>
-                      <p>
-                        Magic Game for Fun. Developed to gain knowledge and
-                        improve technical skills using PHP.
-                      </p>
-                      <p className="icon">
-                        <span>
-                          <a href="https://github.com/janakigouda/phpGame">
-                            <i className="icon-share3" />
-                          </a>
-                        </span>
-                        <span>
-                          <a
-                            href="https://janakigouda.github.io/phpGame/"
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            <i className="icon-github" /> Go To Website
+                          <a href="https://github.com/janakigouda/desistores-web" target="_blank" rel="noopener noreferrer">
+                            <i className="icon-link2" /> Go To Website
                           </a>
                         </span>
                       </p>

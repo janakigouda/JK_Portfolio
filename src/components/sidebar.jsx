@@ -70,15 +70,28 @@ export default class Sidebar extends Component {
                       Contact
                     </a>
                   </li>
+                  {/* <li> */}
+                  {/* <a href="https://drive.google.com/file/d/1QYnZzvWgHSURglhnAWdl3cT-ArKvWClm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      Resume
+                    </a> */}
+                  {/* </li> */}
+                </ul>
+              </div>
+            </nav>
+            <nav id="colorlib-main-menu">
+              <div id="resume">
+                <ul>
                   <li>
-                    <a href="https://drive.google.com/file/d/1QYnZzvWgHSURglhnAWdl3cT-ArKvWClm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/file/d/1QYnZzvWgHSURglhnAWdl3cT-ArKvWClm/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Resume
                     </a>
                   </li>
                 </ul>
               </div>
-            </nav>
-            <nav id="colorlib-main-menu">
               <div className="contact">
                 {/* <ul> */}
                 {/* <li> */}
